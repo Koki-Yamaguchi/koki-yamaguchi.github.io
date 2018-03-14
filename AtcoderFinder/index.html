@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Atcoder Finder</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.0/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.0/dist/semantic.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src="./js/filter.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="ui inverted menu">
+        <a class="active item">
+            <h3>Atcoder Finder</h3>
+        </a>
+    </div>
+    <div class="ui container">
+        <h4 class='ui top attached header'>タグを選ぶ</h4>
+        <div class='ui attached segment'>
+            <div class='filter-container'>
+                <div class='filters ui form'>
+                    <div class='inline fields'>
+                        <div class='field'>
+                            <div class='ui radio checkbox'>
+                                <input type='radio' autocomplete='off' class='filter' name='タグ' placeholder='タグ' value=''><label>すべて</label>
+                            </div>
+                        </div>
+                        <div class='field'>
+                            <div class='ui radio checkbox'>
+                                <input type='radio' autocomplete='off' class='filter' name='タグ' placeholder='タグ' value='グラフ'><label>グラフ</label>
+                            </div>
+                        </div>
+                        <div class='field'>
+                            <div class='ui radio checkbox'>
+                                <input type='radio' autocomplete='off' class='filter' name='タグ' placeholder='タグ' value='数論'><label>数論</label>
+                            </div>
+                        </div>
+                        <div class='field'>
+                            <div class='ui radio checkbox'>
+                                <input type='radio' autocomplete='off' class='filter' name='タグ' placeholder='タグ' value='幾何'><label>幾何</label>
+                            </div>
+                        </div>
+                        <div class='field'>
+                            <div class='ui radio checkbox'>
+                                <input type='radio' autocomplete='off' class='filter' name='タグ' placeholder='タグ' value='動的計画法'><label>動的計画法</label>
+                            </div>
+                        </div>
+                        <div class='field'>
+                            <div class='ui radio checkbox'>
+                                <input type='radio' autocomplete='off' class='filter' name='タグ' placeholder='タグ' value='データ構造'><label>データ構造</label>
+                            </div>
+                        </div>
+                        <div class='field'>
+                            <div class='ui radio checkbox'>
+                                <input type='radio' autocomplete='off' class='filter' name='タグ' placeholder='タグ' value='文字列'><label>文字列</label>
+                            </div>
+                        </div>
+                        <div class='field'>
+                            <div class='ui radio checkbox'>
+                                <input type='radio' autocomplete='off' class='filter' name='タグ' placeholder='タグ' value='確率・組合せ'><label>確率・組合せ</label>
+                            </div>
+                        </div>
+                        <div class='field'>
+                            <div class='ui radio checkbox'>
+                                <input type='radio' autocomplete='off' class='filter' name='タグ' placeholder='タグ' value='ゲーム'><label>ゲーム</label>
+                            </div>
+                        </div>
+                        <div class='field'>
+                            <div class='ui radio checkbox'>
+                                <input type='radio' autocomplete='off' class='filter' name='タグ' placeholder='タグ' value='その他'><label>その他</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3 class='ui block header'>Atcoder Grand Contest</h3>
+        <table class="ui striped table">
+            <thead>
+                <tr>
+                    <th>問題番号</th>
+                    <th>問題名</th>
+                    <th>タグ</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>AGC 001 A</td>
+                    <td><a href="https://beta.atcoder.jp/contests/agc001/tasks/agc001_a">BBQ Easy</a></td>
+                    <td>その他</td>
+                </tr>
+                <tr>
+                    <td>AGC 001 B</td>
+                    <td><a href="https://beta.atcoder.jp/contests/agc001/tasks/agc001_b">Mysterious Light</a></td>
+                    <td>グラフ 数論 確率・組合せ</td>
+                </tr>
+                <tr>
+                    <td>AGC 001 C</td>
+                    <td><a href="https://beta.atcoder.jp/contests/agc001/tasks/agc001_c">Shorten Diameter</a></td>
+                    <td>グラフ</td>
+                </tr>
+                <tr>
+                    <td>AGC 001 D</td>
+                    <td><a href="https://beta.atcoder.jp/contests/agc001/tasks/agc001_d">Arrays and Palindrome</a></td>
+                    <td>文字列</td>
+                </tr>
+                <tr>
+                    <td>AGC 001 E</td>
+                    <td><a href="https://beta.atcoder.jp/contests/agc001/tasks/agc001_e">BBQ Hard</a></td>
+                    <td>動的計画法 確率・組合せ</td>
+                </tr>
+                <tr>
+                    <td>AGC 001 F</td>
+                    <td><a href="https://beta.atcoder.jp/contests/agc001/tasks/agc001_f">Wide Swap</a></td>
+                    <td>データ構造</td>
+                </tr>
+                <tr>
+                    <td>AGC 002 A</td>
+                    <td><a href="https://beta.atcoder.jp/contests/agc002/tasks/agc002_a">Range Product</a></td>
+                    <td>その他</td>
+                </tr>
+                <tr>
+                    <td>AGC 002 B</td>
+                    <td><a href="https://beta.atcoder.jp/contests/agc002/tasks/agc002_b">Box and Ball</a></td>
+                    <td>その他</td>
+                </tr>
+                <tr>
+                    <td>AGC 002 C</td>
+                    <td><a href="https://beta.atcoder.jp/contests/agc002/tasks/agc002_c">Knot Puzzle</a></td>
+                    <td>確率・組合せ</td>
+                </tr>
+                <tr>
+                    <td>AGC 002 D</td>
+                    <td><a href="https://beta.atcoder.jp/contests/agc002/tasks/agc002_d">Stamp Rally</a></td>
+                    <td>グラフ データ構造</td>
+                </tr>
+                <tr>
+                    <td>AGC 002 E</td>
+                    <td><a href="https://beta.atcoder.jp/contests/agc002/tasks/agc002_e">Candy Piles</a></td>
+                    <td>ゲーム</td>
+                </tr>
+                <tr>
+                    <td>AGC 002 F</td>
+                    <td><a href="https://beta.atcoder.jp/contests/agc002/tasks/agc002_f">Leftmost Ball</a></td>
+                    <td>確率・組合せ</td>
+                </tr>
+                <tr>
+                    <td>AGC 003 A</td>
+                    <td><a href="https://beta.atcoder.jp/contests/agc003/tasks/agc003_a">Wanna go back home</a></td>
+                    <td>文字列</td>
+                </tr>
+                <tr>
+                    <td>AGC 003 B</td>
+                    <td><a href="https://beta.atcoder.jp/contests/agc003/tasks/agc003_b">Simplified mahjong</a></td>
+                    <td>その他</td>
+                </tr>
+                <tr>
+                    <td>AGC 003 C</td>
+                    <td><a href="https://beta.atcoder.jp/contests/agc003/tasks/agc003_c">BBuBBBlesort!</a></td>
+                    <td>確率・組合せ</td>
+                </tr>
+                <tr>
+                    <td>AGC 003 D</td>
+                    <td><a href="https://beta.atcoder.jp/contests/agc003/tasks/agc003_d">Anticube</a></td>
+                    <td>数論 確率・組合せ ゲーム</td>
+                </tr>
+                <tr>
+                    <td>AGC 003 E</td>
+                    <td><a href="https://beta.atcoder.jp/contests/agc003/tasks/agc003_e">Sequential operations on Sequence</a></td>
+                    <td>その他</td>
+                </tr>
+                <tr>
+                    <td>AGC 003 F</td>
+                    <td><a href="https://beta.atcoder.jp/contests/agc003/tasks/agc003_f">Fraction of Fractal</a></td>
+                    <td>グラフ 確率・組合せ</td>
+                </tr>
+                <tr>
+                    <td>AGC 004 A</td>
+                    <td><a href="https://beta.atcoder.jp/contests/agc004/tasks/agc004_a">Divide a Cuboid</a></td>
+                    <td>確率・組合せ</td>
+                </tr>
+                <tr>
+                    <td>AGC 004 B</td>
+                    <td><a href="https://beta.atcoder.jp/contests/agc004/tasks/agc004_b">Colorful Slimes</a></td>
+                    <td>その他</td>
+                </tr>
+                <tr>
+                    <td>AGC 004 C</td>
+                    <td><a href="https://beta.atcoder.jp/contests/agc004/tasks/agc004_c">AND Grid</a></td>
+                    <td>グラフ</td>
+                </tr>
+                <tr>
+                    <td>AGC 004 D</td>
+                    <td><a href="https://beta.atcoder.jp/contests/agc004/tasks/agc004_d">Teleporter</a></td>
+                    <td>その他</td>
+                </tr>
+                <tr>
+                    <td>AGC 004 E</td>
+                    <td><a href="https://beta.atcoder.jp/contests/agc004/tasks/agc004_e">Salvage Robots</a></td>
+                    <td>その他</td>
+                </tr>
+                <tr>
+                    <td>AGC 004 F</td>
+                    <td><a href="https://beta.atcoder.jp/contests/agc004/tasks/agc004_f">Namori</a></td>
+                    <td>グラフ ゲーム</td>
+                </tr>
+                <tr>
+                    <td>AGC 005 A</td>
+                    <td><a href="https://beta.atcoder.jp/contests/agc005/tasks/agc005_a">STring</a></td>
+                    <td>文字列</td>
+                </tr>
+                <tr>
+                    <td>AGC 005 B</td>
+                    <td><a href="https://beta.atcoder.jp/contests/agc005/tasks/agc005_b">Minimum Sum</a></td>
+                    <td>その他</td>
+                </tr>
+                <tr>
+                    <td>AGC 005 C</td>
+                    <td><a href="https://beta.atcoder.jp/contests/agc005/tasks/agc005_c">Tree Restoring</a></td>
+                    <td>グラフ 確率・組合せ</td>
+                </tr>
+                <tr>
+                    <td>AGC 005 D</td>
+                    <td><a href="https://beta.atcoder.jp/contests/agc005/tasks/agc005_d">~K Perm Counting</a></td>
+                    <td>動的計画法 確率・組合せ</td>
+                </tr>
+                <tr>
+                    <td>AGC 005 E</td>
+                    <td><a href="https://beta.atcoder.jp/contests/agc005/tasks/agc005_e">Sugigma: The Showdown</a></td>
+                    <td>グラフ ゲーム</td>
+                </tr>
+                <tr>
+                    <td>AGC 005 F</td>
+                    <td><a href="https://beta.atcoder.jp/contests/agc005/tasks/agc005_f">Many Easy Problems</a></td>
+                    <td>グラフ 確率・組合せ</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3 class='ui block header'>Atcoder Beginner Contest</h3>
+        <table class="ui striped table">
+            <thead>
+                <tr>
+                    <th>問題番号</th>
+                    <th>問題名</th>
+                    <th>タグ</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <h3 class='ui block header'>Atcoder Regular Contest</h3>
+        <table class="ui striped table">
+            <thead>
+                <tr>
+                    <th>問題番号</th>
+                    <th>問題名</th>
+                    <th>タグ</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ARC 001 C</td>
+                    <td><a href="https://beta.atcoder.jp/contests/arc001/tasks/arc001_1">センター採点</a></td>
+                    <td>その他</td>
+                </tr>
+                <tr>
+                    <td>ARC 001 D</td>
+                    <td><a href="https://beta.atcoder.jp/contests/arc001/tasks/arc001_2">リモコン</a></td>
+                    <td>その他</td>
+                </tr>
+                <tr>
+                    <td>ARC 001 E</td>
+                    <td><a href="https://beta.atcoder.jp/contests/arc001/tasks/arc001_3">パズルのお手伝い</a></td>
+                    <td>グラフ</td>
+                </tr>
+                <tr>
+                    <td>ARC 001 F</td>
+                    <td><a href="https://beta.atcoder.jp/contests/arc001/tasks/arc001_4">レースゲーム</a></td>
+                    <td>ゲーム</td>
+                </tr>
+                <tr>
+                    <td>ARC 002 C</td>
+                    <td><a href="https://beta.atcoder.jp/contests/arc002/tasks/arc002_1">うるう年</a></td>
+                    <td>その他</td>
+                </tr>
+                <tr>
+                    <td>ARC 002 D</td>
+                    <td><a href="https://beta.atcoder.jp/contests/arc002/tasks/arc002_2">割り切れる日付</a></td>
+                    <td>その他</td>
+                </tr>
+                <tr>
+                    <td>ARC 002 E</td>
+                    <td><a href="https://beta.atcoder.jp/contests/arc002/tasks/arc002_3">コマンド入力</a></td>
+                    <td>ゲーム</td>
+                </tr>
+                <tr>
+                    <td>ARC 002 F</td>
+                    <td><a href="https://beta.atcoder.jp/contests/arc002/tasks/arc002_4">ボードゲーム</a></td>
+                    <td>ゲーム</td>
+                </tr>
+                <tr>
+                    <td>ARC 003 C</td>
+                    <td><a href="https://beta.atcoder.jp/contests/arc003/tasks/arc003_1">GPA計算</a></td>
+                    <td>確率・組合せ</td>
+                </tr>
+                <tr>
+                    <td>ARC 003 D</td>
+                    <td><a href="https://beta.atcoder.jp/contests/arc003/tasks/arc003_2">さかさま辞書</a></td>
+                    <td>その他</td>
+                </tr>
+                <tr>
+                    <td>ARC 003 E</td>
+                    <td><a href="https://beta.atcoder.jp/contests/arc003/tasks/arc003_3">暗闇帰り道</a></td>
+                    <td>グラフ 確率・組合せ ゲーム</td>
+                </tr>
+                <tr>
+                    <td>ARC 003 F</td>
+                    <td><a href="https://beta.atcoder.jp/contests/arc003/tasks/arc003_4">シャッフル席替え</a></td>
+                    <td>確率・組合せ</td>
+                </tr>
+                <tr>
+                    <td>ARC 004 C</td>
+                    <td><a href="https://beta.atcoder.jp/contests/arc004/tasks/arc004_1">2点間距離の最大値 ( The longest distance )</a></td>
+                    <td>その他</td>
+                </tr>
+                <tr>
+                    <td>ARC 004 D</td>
+                    <td><a href="https://beta.atcoder.jp/contests/arc004/tasks/arc004_2">2点間距離の最大と最小 ( Maximum and Minimum )</a></td>
+                    <td>その他</td>
+                </tr>
+                <tr>
+                    <td>ARC 004 E</td>
+                    <td><a href="https://beta.atcoder.jp/contests/arc004/tasks/arc004_3">平均値太郎の憂鬱 ( The melancholy of Taro Heikinchi )</a></td>
+                    <td>数論</td>
+                </tr>
+                <tr>
+                    <td>ARC 004 F</td>
+                    <td><a href="https://beta.atcoder.jp/contests/arc004/tasks/arc004_4">表現の自由 ( Freedom of expression )</a></td>
+                    <td>確率・組合せ</td>
+                </tr>
+                <tr>
+                    <td>ARC 005 C</td>
+                    <td><a href="https://beta.atcoder.jp/contests/arc005/tasks/arc005_1">大好き高橋君</a></td>
+                    <td>その他</td>
+                </tr>
+                <tr>
+                    <td>ARC 005 D</td>
+                    <td><a href="https://beta.atcoder.jp/contests/arc005/tasks/arc005_2">P-CASカードと高橋君</a></td>
+                    <td>確率・組合せ</td>
+                </tr>
+                <tr>
+                    <td>ARC 005 E</td>
+                    <td><a href="https://beta.atcoder.jp/contests/arc005/tasks/arc005_3">器物損壊！高橋君</a></td>
+                    <td>グラフ ゲーム</td>
+                </tr>
+                <tr>
+                    <td>ARC 005 F</td>
+                    <td><a href="https://beta.atcoder.jp/contests/arc005/tasks/arc005_4">連射王高橋君</a></td>
+                    <td>幾何 動的計画法 確率・組合せ</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

@@ -7,8 +7,7 @@ def get_all_urls(type):
     all_urls = []
     if type == 0: #AGC
         alpha = ['a', 'b', 'c', 'd', 'e', 'f']
-        #for number in range(1, 22):
-        for number in range(1, 6):
+        for number in range(1, 22):
             for i in range(0, 6):
                 if number == 9 and i == 5:
                     continue
@@ -35,8 +34,7 @@ def get_all_urls(type):
                 all_urls.append(url)
     elif type == 2: #ARC
         alpha = ['#', 'a', 'b', 'c', 'd']
-        #for number in range(1, 92):
-        for number in range(1, 6):
+        for number in range(1, 92):
             for i in range(1, 5):
                 numstr = str(number)
                 if len(numstr) == 1:
@@ -254,9 +252,8 @@ def make_database(genre_list, type):
         sql.close()
 
 if __name__ == '__main__':
-    '''
     for type in range(0, 3):#AGC:0,  ABC:1,  ARC:2
-        if type == 1:
+        if type == 0 or type == 1: #not work with ABC problems due to its strange URL
             continue
         all_urls = get_all_urls(type)
         url_statement_codes = [[url[0:40] + 'tasks/' + url[59:67], get_statement(url), get_codes(url)] for url in all_urls]
@@ -267,5 +264,4 @@ if __name__ == '__main__':
             tmp.append(classify(usc[1], usc[2]))
             genre_list.append(tmp)
         make_database(genre_list, type) 
-    '''
     generate_html.generate()

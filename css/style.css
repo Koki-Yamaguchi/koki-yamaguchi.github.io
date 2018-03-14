@@ -9,3 +9,11 @@
 table td {
     width : 33%;
 }
+
+table th {
+    width : 33%;
+}
+
+.ui.inverted.vertical.footer.segment {
+    margin-top : 45px;
+}

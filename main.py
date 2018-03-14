@@ -1,5 +1,5 @@
 import requests, re, webbrowser, MeCab, glob, sqlite3, time
-import generate_html
+import generator
 from bs4 import BeautifulSoup
 mecab = MeCab.Tagger('-d /usr/local/mecab/lib/mecab/dic/mecab-ipadic-neologd/')
 
@@ -143,7 +143,7 @@ def get_codes(all_url):
     return clean_codes
 
 def classify(statement, codes):
-    genres = ['グラフ', '数論', '幾何', '動的計画法', 'データ構造', '文字列', '確率・組合せ', 'ゲーム']
+    tags = ['グラフ', '数論', '幾何', '動的計画法', 'データ構造', '文字列', '確率・組合せ', 'ゲーム']
     apparent_keys = [['グラフ', '木', '連結', '辺', '頂点', 'パス',],
                      [],
                      ['半径',],
@@ -177,8 +177,8 @@ def classify(statement, codes):
                      [],
                      [],
                     ]
-    genre_list = []
-    for i in range(0, len(genres)):
+    tag_list = []
+    for i in range(0, len(tags)):
         ok = False
         for key in apparent_keys[i]:
             if key in statement:
@@ -205,14 +205,14 @@ def classify(statement, codes):
             if yes_cnt > no_cnt:
                 ok = True
         if ok:
-            genre_list.append(genres[i])
+            tag_list.append(tags[i])
 
-    if len(genre_list) == 0:
-        genre_list.append('その他')
-    return genre_list
+    if len(tag_list) == 0:
+        tag_list.append('その他')
+    return tag_list
 
-def make_database(genre_list, type):
-    for g in genre_list:
+def make_database(tag_list, type):
+    for g in tag_list:
         url = g[0]
         html = requests.get(url)
         soup = BeautifulSoup(html.text, 'lxml')
@@ -252,16 +252,16 @@ def make_database(genre_list, type):
         sql.close()
 
 if __name__ == '__main__':
-    for type in range(0, 3):#AGC:0,  ABC:1,  ARC:2
-        if type == 0 or type == 1: #not work with ABC problems due to its strange URL
+    for type in range(0, 3): #AGC:0, ABC:1, ARC:2
+        if type == 1: #not work with ABC problems due to its strange URL
             continue
         all_urls = get_all_urls(type)
         url_statement_codes = [[url[0:40] + 'tasks/' + url[59:67], get_statement(url), get_codes(url)] for url in all_urls]
-        genre_list = [] #[url, [genre1, genre2, ..., ]]
+        tag_list = [] #[[url, [tag1, tag2, ..., ]], ...]
         for usc in url_statement_codes:
             tmp = []
             tmp.append(usc[0])
             tmp.append(classify(usc[1], usc[2]))
-            genre_list.append(tmp)
-        make_database(genre_list, type) 
-    generate_html.generate()
+            tag_list.append(tmp)
+        make_database(tag_list, type) 
+    generator.generate()

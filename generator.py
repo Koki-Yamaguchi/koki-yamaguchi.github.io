@@ -6,13 +6,12 @@ def fixed_part1():
 <head>
     <title>Atcoder Finder</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.0/dist/semantic.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.0/dist/semantic.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <script src="./js/filter.js"></script>
     <script src="./js/top.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.0/dist/semantic.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -31,15 +30,10 @@ def filter():
     print("            <div class='filter-container'>")
     print("                <div class='filters ui form'>")
     print("                    <div class='inline fields'>")
-    print("                        <div class='field'>")
-    print("                            <div class='ui radio checkbox'>")
-    print("                                <input type='radio' autocomplete='off' class='filter' name='タグ' placeholder='タグ' value='' checked='checked' id='all'><label for='all'>すべて</label>")
-    print("                            </div>")
-    print("                        </div>")
     for i in range(len(tags)):
         print("                        <div class='field'>")
-        print("                            <div class='ui radio checkbox'>")
-        print("                                <input type='radio' autocomplete='off' class='filter' name='タグ' placeholder='タグ' value='" + tags[i] + "' id = 'tag" + str(i) + "'><label for='tag" + str(i) + "'>" + tags[i] + "</label>")
+        print("                            <div class='ui checkbox'>")
+        print("                                <input type='checkbox' name='タグ' placeholder='タグ' value='" + tags[i] + "' id = 'tag" + str(i) + "'><label for='tag" + str(i) + "'>" + tags[i] + "</label>")
         print("                            </div>")
         print("                        </div>")
     print("                    </div>")

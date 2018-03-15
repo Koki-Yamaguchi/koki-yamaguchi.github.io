@@ -3,13 +3,12 @@
 <head>
     <title>Atcoder Finder</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.0/dist/semantic.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.0/dist/semantic.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <script src="./js/filter.js"></script>
     <script src="./js/top.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.0/dist/semantic.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -26,53 +25,48 @@
                 <div class='filters ui form'>
                     <div class='inline fields'>
                         <div class='field'>
-                            <div class='ui radio checkbox'>
-                                <input type='radio' autocomplete='off' class='filter' name='タグ' placeholder='タグ' value='' checked='checked' id='all'><label for='all'>すべて</label>
+                            <div class='ui checkbox'>
+                                <input type='checkbox' name='タグ' placeholder='タグ' value='グラフ' id = 'tag0'><label for='tag0'>グラフ</label>
                             </div>
                         </div>
                         <div class='field'>
-                            <div class='ui radio checkbox'>
-                                <input type='radio' autocomplete='off' class='filter' name='タグ' placeholder='タグ' value='グラフ' id = 'tag0'><label for='tag0'>グラフ</label>
+                            <div class='ui checkbox'>
+                                <input type='checkbox' name='タグ' placeholder='タグ' value='数論' id = 'tag1'><label for='tag1'>数論</label>
                             </div>
                         </div>
                         <div class='field'>
-                            <div class='ui radio checkbox'>
-                                <input type='radio' autocomplete='off' class='filter' name='タグ' placeholder='タグ' value='数論' id = 'tag1'><label for='tag1'>数論</label>
+                            <div class='ui checkbox'>
+                                <input type='checkbox' name='タグ' placeholder='タグ' value='幾何' id = 'tag2'><label for='tag2'>幾何</label>
                             </div>
                         </div>
                         <div class='field'>
-                            <div class='ui radio checkbox'>
-                                <input type='radio' autocomplete='off' class='filter' name='タグ' placeholder='タグ' value='幾何' id = 'tag2'><label for='tag2'>幾何</label>
+                            <div class='ui checkbox'>
+                                <input type='checkbox' name='タグ' placeholder='タグ' value='動的計画法' id = 'tag3'><label for='tag3'>動的計画法</label>
                             </div>
                         </div>
                         <div class='field'>
-                            <div class='ui radio checkbox'>
-                                <input type='radio' autocomplete='off' class='filter' name='タグ' placeholder='タグ' value='動的計画法' id = 'tag3'><label for='tag3'>動的計画法</label>
+                            <div class='ui checkbox'>
+                                <input type='checkbox' name='タグ' placeholder='タグ' value='データ構造' id = 'tag4'><label for='tag4'>データ構造</label>
                             </div>
                         </div>
                         <div class='field'>
-                            <div class='ui radio checkbox'>
-                                <input type='radio' autocomplete='off' class='filter' name='タグ' placeholder='タグ' value='データ構造' id = 'tag4'><label for='tag4'>データ構造</label>
+                            <div class='ui checkbox'>
+                                <input type='checkbox' name='タグ' placeholder='タグ' value='文字列' id = 'tag5'><label for='tag5'>文字列</label>
                             </div>
                         </div>
                         <div class='field'>
-                            <div class='ui radio checkbox'>
-                                <input type='radio' autocomplete='off' class='filter' name='タグ' placeholder='タグ' value='文字列' id = 'tag5'><label for='tag5'>文字列</label>
+                            <div class='ui checkbox'>
+                                <input type='checkbox' name='タグ' placeholder='タグ' value='確率・組合せ' id = 'tag6'><label for='tag6'>確率・組合せ</label>
                             </div>
                         </div>
                         <div class='field'>
-                            <div class='ui radio checkbox'>
-                                <input type='radio' autocomplete='off' class='filter' name='タグ' placeholder='タグ' value='確率・組合せ' id = 'tag6'><label for='tag6'>確率・組合せ</label>
+                            <div class='ui checkbox'>
+                                <input type='checkbox' name='タグ' placeholder='タグ' value='ゲーム' id = 'tag7'><label for='tag7'>ゲーム</label>
                             </div>
                         </div>
                         <div class='field'>
-                            <div class='ui radio checkbox'>
-                                <input type='radio' autocomplete='off' class='filter' name='タグ' placeholder='タグ' value='ゲーム' id = 'tag7'><label for='tag7'>ゲーム</label>
-                            </div>
-                        </div>
-                        <div class='field'>
-                            <div class='ui radio checkbox'>
-                                <input type='radio' autocomplete='off' class='filter' name='タグ' placeholder='タグ' value='その他' id = 'tag8'><label for='tag8'>その他</label>
+                            <div class='ui checkbox'>
+                                <input type='checkbox' name='タグ' placeholder='タグ' value='その他' id = 'tag8'><label for='tag8'>その他</label>
                             </div>
                         </div>
                     </div>

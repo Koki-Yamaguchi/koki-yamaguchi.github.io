@@ -38,3 +38,11 @@ table th {
     text-decoration: none;
     background: #999;
 }
+
+.ui.checkbox label {
+    cursor: pointer;
+}
+
+#page-top {
+    z-index : 5;
+}

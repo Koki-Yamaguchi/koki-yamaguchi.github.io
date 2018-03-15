@@ -21,8 +21,8 @@
         input = $this
         filter = $this.val();
         rows.each(function() {
-          hidden_rows = []
-          visible_rows = []
+          //hidden_rows = []
+          //visible_rows = []
           row = $(this);
           cell = $(row.children(item_tag)[col_index])
           if (filter) {
@@ -55,8 +55,8 @@
       });
     });
   };
-})(jQuery);(jQuery);
+})(jQuery);
 
 $(document).ready(function() {
-        $('.filter').multifilter()
-      })
+  $('.filter').multifilter();
+});

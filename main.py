@@ -1,5 +1,4 @@
 import requests, re, webbrowser, MeCab, glob, sqlite3, time
-import generator
 from bs4 import BeautifulSoup
 mecab = MeCab.Tagger('-d /usr/local/mecab/lib/mecab/dic/mecab-ipadic-neologd/')
 
@@ -69,7 +68,7 @@ def clean_ja(texts):
 
 def get_statement(url):
     problem_url = url[0:40] + 'tasks/' + url[59:67]
-    print(problem_url)
+    #print(problem_url)
     html = requests.get(problem_url)
     soup = BeautifulSoup(html.text, 'lxml')
     all_text = soup.find("div", {"id" : "task-statement"})
@@ -252,7 +251,7 @@ def make_database(tag_list, type):
         sql.close()
 
 if __name__ == '__main__':
-    for type in range(0, 3): #AGC:0, ABC:1, ARC:2
+    for type in range(2, 3): #AGC:0, ABC:1, ARC:2
         if type == 1: #not work with ABC problems due to its strange URL
             continue
         all_urls = get_all_urls(type)
@@ -264,4 +263,3 @@ if __name__ == '__main__':
             tmp.append(classify(usc[1], usc[2]))
             tag_list.append(tmp)
         make_database(tag_list, type) 
-    generator.generate()

@@ -1,4 +1,4 @@
-import sys, sqlite3
+import sqlite3
 
 def fixed_part1():
     print("""<!DOCTYPE html>
@@ -25,22 +25,21 @@ def fixed_part1():
     <div class="ui container">""")
 
 def filter():
+    tags = ['グラフ', '数論', '幾何', '動的計画法', 'データ構造', '文字列', '確率・組合せ', 'ゲーム', 'その他']
     print("        <h4 class='ui top attached header'>タグを選ぶ</h4>")
     print("        <div class='ui attached segment'>")
     print("            <div class='filter-container'>")
     print("                <div class='filters ui form'>")
     print("                    <div class='inline fields'>")
-
-    tags = ['グラフ', '数論', '幾何', '動的計画法', 'データ構造', '文字列', '確率・組合せ', 'ゲーム', 'その他']
     print("                        <div class='field'>")
     print("                            <div class='ui radio checkbox'>")
-    print("                                <input type='radio' autocomplete='off' class='filter' name='タグ' placeholder='タグ' value=''><label>すべて</label>")
+    print("                                <input type='radio' autocomplete='off' class='filter' name='タグ' placeholder='タグ' value='' checked='checked' id='all'><label for='all'>すべて</label>")
     print("                            </div>")
     print("                        </div>")
-    for tag in tags:
+    for i in range(len(tags)):
         print("                        <div class='field'>")
         print("                            <div class='ui radio checkbox'>")
-        print("                                <input type='radio' autocomplete='off' class='filter' name='タグ' placeholder='タグ' value='" + tag + "'><label>" + tag + "</label>")
+        print("                                <input type='radio' autocomplete='off' class='filter' name='タグ' placeholder='タグ' value='" + tags[i] + "' id = 'tag" + str(i) + "'><label for='tag" + str(i) + "'>" + tags[i] + "</label>")
         print("                            </div>")
         print("                        </div>")
     print("                    </div>")
@@ -109,15 +108,12 @@ def fixed_part2():
 </html>""")
 
 def generate():
-    file = open("index.html", "w")
-    sys.stdout = file
     fixed_part1()
     filter()
     table(0)
     table(1)
     table(2)
     fixed_part2()
-    sys.stdout = sys.__stdout__
 
 if __name__ == '__main__':
     generate()

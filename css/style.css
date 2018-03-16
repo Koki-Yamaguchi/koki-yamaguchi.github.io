@@ -2,6 +2,11 @@
     font-weight : 100;
 }
 
+.ui.inverted.menu {
+    margin-top : 0;
+    margin-bottom : 30px;
+}
+
 .ui.form .inline.fields .field {
     margin-right : 15px;
 }

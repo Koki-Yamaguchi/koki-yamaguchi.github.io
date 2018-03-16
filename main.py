@@ -1,59 +1,83 @@
-import requests, re, webbrowser, MeCab, glob, sqlite3, time
+import requests, re, webbrowser, MeCab, glob, sqlite3, time, json
 from bs4 import BeautifulSoup
 mecab = MeCab.Tagger('-d /usr/local/mecab/lib/mecab/dic/mecab-ipadic-neologd/')
 
-def get_all_urls(type):
-    all_urls = []
-    if type == 0: #AGC
-        alpha = ['a', 'b', 'c', 'd', 'e', 'f']
-        for number in range(1, 22):
-            for i in range(0, 6):
-                if number == 9 and i == 5:
-                    continue
-                numstr = str(number)
-                if len(numstr) == 1:
-                    numstr = '00' + numstr
-                elif len(numstr) == 2:
-                    numstr = '0' + numstr
-                url = 'https://beta.atcoder.jp/contests/agc' + numstr + '/submissions?f.Task=agc' + numstr + '_' + alpha[i] + '&f.Language=3003&f.Status=AC&f.User=&page='
-                all_urls.append(url)
-    elif type == 1: #ABC
-        alpha = ['#', 'a', 'b', 'c', 'd']
-        for number in range(1, 42):
-            for i in range(1, 5):
-                numstr = str(number)
-                if len(numstr) == 1:
-                    numstr = '00' + numstr
-                elif len(numstr) == 2:
-                    numstr = '0' + numstr
-                if number >= 20: #ABC problems have tricky urls
-                    url = 'https://beta.atcoder.jp/contests/abc' + numstr + '/submissions?f.Task=abc' + numstr + '_' + alpha[i] + '&f.Language=3003&f.Status=AC&f.User=&page='
-                else:
-                    url = 'https://beta.atcoder.jp/contests/abc' + numstr + '/submissions?f.Task=abc' + numstr + '_' + str(i) + '&f.Language=3003&f.Status=AC&f.User=&page='
-                all_urls.append(url)
-    elif type == 2: #ARC
-        alpha = ['#', 'a', 'b', 'c', 'd']
+def get_all_data(type):
+    '''get json from the web and write it to local file
+    html = requests.get('http://kenkoooo.com/atcoder/atcoder-api/info/problems')
+    soup = BeautifulSoup(html.text, 'lxml')
+    json_data = soup.find("p").string
+    with open('./json/problems.json', mode = 'w', encoding = 'utf-8') as file:
+        file.write(json_data)
+    '''
+    json_data = open('./json/problems.json', 'r')
+    json_dict = json.load(json_data)
+
+    if type == 0 or type == 2: #AGC or ARC
+        res = []
         for number in range(1, 92):
-            for i in range(1, 5):
-                numstr = str(number)
-                if len(numstr) == 1:
-                    numstr = '00' + numstr
-                elif len(numstr) == 2:
-                    numstr = '0' + numstr
-                if number >= 35: #ARC problems have tricky urls
-                    url = 'https://beta.atcoder.jp/contests/arc' + numstr + '/submissions?f.Task=arc' + numstr + '_' + alpha[i] + '&f.Language=3003&f.Status=AC&f.User=&page='
+            numstr = str(number)
+            if len(numstr) == 1:
+                numstr = '00' + numstr
+            elif len(numstr) == 2:
+                numstr = '0' + numstr
+            if type == 0:
+                for data in json_dict:
+                    if data['id'][0:6] == 'agc' + numstr:
+                        res.append([data['id'], data['contest_id'], data['title']])
+            elif type == 2:
+                for data in json_dict:
+                    if data['id'][0:6] == 'arc' + numstr:
+                        res.append([data['id'], data['contest_id'], data['title']])
+        res.sort()
+        return res
+
+    elif type == 1: #ABC
+        res = []
+        for number in range(1, 91):
+            numstr = str(number)
+            if len(numstr) == 1:
+                numstr = '00' + numstr
+            elif len(numstr) == 2:
+                numstr = '0' + numstr
+            url = 'https://beta.atcoder.jp/contests/abc' + numstr + '/tasks'
+            html = requests.get(url)
+            soup = BeautifulSoup(html.text, 'lxml')
+            elems = soup.table.find_all('a')
+            cnt = 0
+            titles = []
+            char = ''
+            for e in elems:
+                cnt += 1
+                if cnt % 2 == 0:
+                    titles.append(char + '. ' + e.string)
                 else:
-                    url = 'https://beta.atcoder.jp/contests/arc' + numstr + '/submissions?f.Task=arc' + numstr + '_' + str(i) + '&f.Language=3003&f.Status=AC&f.User=&page='
-                all_urls.append(url)
-    return all_urls
+                    char = e.string
+            for title in titles:
+                for data in json_dict:
+                    if data['title'] == title:
+                        if data['id'][0:3] == 'abc':
+                            res.append([data['id'], data['contest_id'], data['title']])
+                            print(data)
+                            break
+                        elif data['id'][0:3] == 'arc':
+                            if data['id'][-1] == 'a' or data['id'][-1] == 'b':
+                                res.append([data['id'], data['contest_id'], data['title']])
+                                print(data)
+                                break
+        return res
+    else:
+        assert false
 
 def tokenize(text):
     list = []
+    mecab.parse("")
     node = mecab.parseToNode(text)
     while (node):
         feature = node.feature.split(',')
         is_noun = feature[0] == '名詞'
         is_number = feature[1] == '数'
+        #print(node.surface)
         if is_noun and not is_number:
             list.append(node.surface.lower())
         node = node.next
@@ -66,10 +90,10 @@ def clean_ja(texts):
     result = [word for word in texts if word not in stop_words]
     return result
 
-def get_statement(url):
-    problem_url = url[0:40] + 'tasks/' + url[59:67]
-    #print(problem_url)
-    html = requests.get(problem_url)
+def get_statement(data):
+    url = 'https://beta.atcoder.jp/contests/' + data[1] + '/tasks/' + data[0]
+    print(url)
+    html = requests.get(url)
     soup = BeautifulSoup(html.text, 'lxml')
     all_text = soup.find("div", {"id" : "task-statement"})
     statement = all_text.find("section").text
@@ -105,10 +129,11 @@ def clean(words, stop_words):
             clean_words.append(w)
     return clean_words
 
-def get_codes(all_url):
+def get_codes(data):
+    all_url = 'https://beta.atcoder.jp/contests/' + data[1] + '/submissions?f.Task=' + data[0] + '&f.Language=3003&f.Status=AC&f.User=&page='
     page_number = 1
     submissions_url = []
-    upper_bound = 5
+    upper_bound = 5 #the number of codes to check
     cnt = 0
     end = False
     while not end:
@@ -211,30 +236,25 @@ def classify(statement, codes):
     return tag_list
 
 def make_database(tag_list, type):
-    for g in tag_list:
-        url = g[0]
-        html = requests.get(url)
-        soup = BeautifulSoup(html.text, 'lxml')
-        title = soup.find("span", class_="h2").text
-        name = title[4:len(title)]
-        tags = ' '.join(g[1])
-        id = url[len(url) - 8:len(url) - 5].upper() + ' ' + url[len(url) - 5:len(url) - 2] + ' '
-        if type == 0:
-            id = id + url[len(url) - 1].upper()
-        elif type == 1:
-            s = url[len(url) - 1]
-            if s.isdigit():
-                alpha = ['#', 'A', 'B', 'C', 'D']
-                id = id + alpha[int(s)]
+    for data_tags in tag_list:
+        d = data_tags[0]
+        url = 'https://beta.atcoder.jp/contests/' + d[1] + '/tasks/' + d[0]
+        name = d[2][3:]
+        tags = ' '.join(data_tags[1])
+        id = ''
+        if type == 0 or type == 2:
+            id = id + d[1][0:3].upper() + ' ' + d[1][3:] + ' ' + d[2][0]
+        if type == 1:
+            id = id + d[1][0:3].upper() + ' ' + d[1][3:]
+            if d[0][0:3] == 'arc':
+                if d[0][len(d[0]) - 1:] == 'a':
+                    id = id + ' C'
+                else:
+                    id = id + ' D'
             else:
-                id = id + s.upper()
-        elif type == 2:
-            s = url[len(url) - 1]
-            if s.isdigit():
-                alpha = ['#', 'C', 'D', 'E', 'F']
-                id = id + alpha[int(s)]
-            else:
-                id = id + s.upper()
+                id = id + ' ' + d[2][0].upper()
+        print(id, name, url, tags)
+
         data = [id, name, url, tags]
 
         sql = sqlite3.connect('./database/problems.db')
@@ -252,14 +272,16 @@ def make_database(tag_list, type):
 
 if __name__ == '__main__':
     for type in range(2, 3): #AGC:0, ABC:1, ARC:2
-        if type == 1: #not work with ABC problems due to its strange URL
-            continue
-        all_urls = get_all_urls(type)
-        url_statement_codes = [[url[0:40] + 'tasks/' + url[59:67], get_statement(url), get_codes(url)] for url in all_urls]
-        tag_list = [] #[[url, [tag1, tag2, ..., ]], ...]
-        for usc in url_statement_codes:
-            tmp = []
-            tmp.append(usc[0])
-            tmp.append(classify(usc[1], usc[2]))
-            tag_list.append(tmp)
-        make_database(tag_list, type) 
+        all_data = get_all_data(type) #[[id, contest_id, title], ... ]
+        if type == 1:
+            for i in range(0, len(all_data)): #modify the contest_id
+                if all_data[i][1][0:3] == 'arc':
+                    all_data[i][1] = all_data[i - 2][1]
+        tag_list = [] #[[data, [tag0, tag1, ...]], ...]
+        for data in all_data:
+            print(data)
+            statement = get_statement(data)
+            codes = get_codes(data)
+            tags = classify(statement, codes)
+            tag_list.append([data, tags])
+        make_database(tag_list, type)

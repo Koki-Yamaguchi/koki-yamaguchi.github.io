@@ -1,2 +1,0 @@
-python3 generator.py > index.html
-open index.html

@@ -242,6 +242,7 @@ def make_database(tag_list, type):
         name = d[2][3:]
         tags = ' '.join(data_tags[1])
         id = ''
+        problem_id = d[0]
         if type == 0 or type == 2:
             id = id + d[1][0:3].upper() + ' ' + d[1][3:] + ' ' + d[2][0]
         if type == 1:
@@ -253,20 +254,20 @@ def make_database(tag_list, type):
                     id = id + ' D'
             else:
                 id = id + ' ' + d[2][0].upper()
-        print(id, name, url, tags)
+        print(problem_id, id, name, url, tags)
 
-        data = [id, name, url, tags]
+        data = [problem_id, id, name, url, tags]
 
         sql = sqlite3.connect('./database/problems.db')
         if type == 0:
-            sql.execute("create table if not exists AGC(id, name, url, tags)")
-            sql.execute("insert into AGC values(?, ?, ?, ?)", data)
+            sql.execute("create table if not exists AGC(problem_id, id, name, url, tags)")
+            sql.execute("insert into AGC values(?, ?, ?, ?, ?)", data)
         elif type == 1:
-            sql.execute("create table if not exists ABC(id, name, url, tags)")
-            sql.execute("insert into ABC values(?, ?, ?, ?)", data)
+            sql.execute("create table if not exists ABC(problem_id, id, name, url, tags)")
+            sql.execute("insert into ABC values(?, ?, ?, ?, ?)", data)
         elif type == 2:
-            sql.execute("create table if not exists ARC(id, name, url, tags)")
-            sql.execute("insert into ARC values(?, ?, ?, ?)", data)
+            sql.execute("create table if not exists ARC(problem_id, id, name, url, tags)")
+            sql.execute("insert into ARC values(?, ?, ?, ?, ?)", data)
         sql.commit()
         sql.close()
 

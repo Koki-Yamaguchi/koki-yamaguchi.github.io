@@ -4,7 +4,7 @@
 
 .ui.inverted.menu {
     margin-top : 0;
-    margin-bottom : 30px;
+    margin-bottom : 20px;
 }
 
 .ui.form .inline.fields .field {
@@ -51,3 +51,4 @@ table th {
 #page-top {
     z-index : 5;
 }
+

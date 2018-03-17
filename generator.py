@@ -11,17 +11,34 @@ def fixed_part1():
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <script src="./js/filter.js"></script>
     <script src="./js/top.js"></script>
+    <script src="./js/reactive_judge.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.0/dist/semantic.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <p id="page-top"><a href="#wrap">トップに戻る</a></p>
+
     <div class="ui inverted menu">
         <a class="active item">
             <h3>Atcoder Finder</h3>
         </a>
+        <a class="active item" href="https://github.com/Koki-Yamaguchi/Koki-Yamaguchi.github.io">
+            <h3>Source</h3>
+        </a>
     </div>
     <div class="ui container">""")
+
+def form():
+    print("""
+    <form id="userid">
+        <div class="ui action input">
+            <input autocomplete="off" type="text" name="user" value="" placeholder="Search user ID" />
+            <button class="ui icon button" type="button" id="btn">
+                <i class="search icon"></i>
+            </button>
+        </div>
+    </form>
+""")
 
 def filter():
     tags = ['グラフ', '数論', '幾何', '動的計画法', 'データ構造', '文字列', '確率・組合せ', 'ゲーム', 'その他']
@@ -80,9 +97,9 @@ def table(type):
     res = cur.fetchall()
     for row in res:
         print('                <tr>')
-        print('                    <td>' + row[0] + '</td>')
-        print('                    <td><a href="' + row[2] + '">' + row[1] + '</a></td>')
-        print('                    <td>' + row[3] + '</td>')
+        print('                    <td>' + row[1] + '</td>')
+        print('                    <td id="' + row[0] + '"><a href="' + row[3] + '">' + row[2] + '</a></td>')
+        print('                    <td>' + row[4] + '</td>')
         print('                </tr>')
     cur.close()
     sql.close()
@@ -103,6 +120,7 @@ def fixed_part2():
 
 def generate():
     fixed_part1()
+    form()
     filter()
     table(0)
     table(1)

@@ -98,7 +98,7 @@ def table(type):
     for row in res:
         print('                <tr>')
         print('                    <td>' + row[1] + '</td>')
-        print('                    <td id="' + row[0] + '"><a href="' + row[3] + '">' + row[2] + '</a></td>')
+        print('                    <td id="' + row[0] + '"><a href="' + row[3] + '" target="_blank">' + row[2] + '</a></td>')
         print('                    <td>' + row[4] + '</td>')
         print('                </tr>')
     cur.close()

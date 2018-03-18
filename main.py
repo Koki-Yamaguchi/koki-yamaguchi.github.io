@@ -15,7 +15,7 @@ def get_all_data(type):
 
     if type == 0 or type == 2: #AGC or ARC
         res = []
-        for number in range(1, 92):
+        for number in range(1, 10):
             numstr = str(number)
             if len(numstr) == 1:
                 numstr = '00' + numstr
@@ -192,7 +192,7 @@ def classify(statement, codes):
                      ['grundy', 'g', 'gr', 'Alice', 'Bob', 'Takahashi', 'Aoki', 'First', 'Second',
                       'ALICE', 'BOB', 'TAKAHASHI', 'AOKI', 'Draw', 'DRAW',],
                     ]
-    not_good_keys = [['gcd',],
+    not_good_keys = [['gcd', 'r', 'R'],
                      [],
                      [],
                      [],

@@ -10,6 +10,7 @@ def get_all_data(type):
     with open('./json/problems.json', mode = 'w', encoding = 'utf-8') as file:
         file.write(json_data)
     '''
+    return
     json_data = open('./json/problems.json', 'r')
     json_dict = json.load(json_data)
 

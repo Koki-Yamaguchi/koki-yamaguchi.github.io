@@ -28,9 +28,11 @@ domain: koki-yamaguchi.github.io
 url: https://koki-yamaguchi.github.io
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+
+paginate: 5
 
 # Exclude from processing.
 # The following items will not be processed, by default.

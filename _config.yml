@@ -18,5 +18,5 @@ plugins:
   - jekyll-paginate
 
 # pagination settings
-paginate: 1
+paginate: 10
 

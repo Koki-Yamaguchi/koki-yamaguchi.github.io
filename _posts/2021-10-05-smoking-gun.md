@@ -1,11 +1,7 @@
 --- 
 layout: post
-title: Intra-diaper A
+title: Smoking Gun
 ---
-
-I wasn't feeling well this morning (or to be more precise, I was having a little trouble breathing), but I soon felt better and did what I do everyday.
-
-Let's write about a few words that I added to Anki today: smoking gun, diaper, intra-.
 
 ## smoking gun
 According to Google, a smoking gun means "a piece of incontrovertible incriminating evidence." I can tell what it means, but simply put, a piece of clear evidence that shows someone did commit a crime. If you think of a smoking gun, it's pretty intuitive and easy to remember. This term seems to be used as 'smoking gun evidence' in the context of science as well.

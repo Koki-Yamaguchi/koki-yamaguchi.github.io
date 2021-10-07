@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: Scavenger hunt
+title: Scavenger Hunt
 ---
 
 ## scavenger hunt

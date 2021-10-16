@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: Scavenger Hunt
+tags: ["prefix", "etymology"]
 ---
 
 ## scavenger hunt

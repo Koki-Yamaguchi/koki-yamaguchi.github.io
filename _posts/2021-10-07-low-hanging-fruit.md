@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: Low-hanging Fruit
+tags: ["idiom"]
 ---
 
 > I began dipping my toes into ... . I started with some low-hanging fruit. (Myers, *Raising Them*, p.63)

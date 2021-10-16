@@ -1,6 +1,7 @@
 --- 
 layout: post
 title: Smoking Gun
+tags: ["idiom", "prefix", "pronunciation"]
 ---
 
 ## smoking gun

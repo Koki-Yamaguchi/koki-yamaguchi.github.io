@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Snotsicle
+tags: ["suffix", "etymology"]
 ---
 
 ## -sicle

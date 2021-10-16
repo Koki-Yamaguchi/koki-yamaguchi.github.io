@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Obstetrician
+tags: ["etymology"]
 ---
 
 ## Obstetrician

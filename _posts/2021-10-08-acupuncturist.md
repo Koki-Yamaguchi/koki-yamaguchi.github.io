@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Acupuncturist
+tags: ["etymology"]
 ---
 
 ## acupuncturist

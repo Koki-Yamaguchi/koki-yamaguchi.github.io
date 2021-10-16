@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hell to Pay
+tags: ["idiom"]
 ---
 
 ## Hell to Pay

@@ -14,7 +14,7 @@ Anyway, since this has been sold as a set of a barrel and some monkeys, I though
 
 Indeed, this expression was in use as of 1889.
 
-> Barrel of monkeys, or bushel of monkeys, to have more fun than, to have an exceedingly jolly time.
+> Barrel of monkeys, or bushel of monkeys, to have more fun than, to have an exceedingly jolly time.[^oed-monkey]
 
 The first usage of one variation of this phrase found in the OED is as follows, and it seems to be used with an image of an actual cage of monkeys. People in the past must have thought of the playful or clever behaviors of these monkeys.
 

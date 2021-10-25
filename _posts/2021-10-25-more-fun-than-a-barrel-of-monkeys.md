@@ -4,7 +4,7 @@ title: More Fun Than a Barrel of Monkeys
 tags: ["idiom"]
 ---
 
-"More fun than barrel of monkeys" means "very fun, or very clever".
+"More fun than a barrel of monkeys" means "very fun, or very clever".
 
 At first, I looked up the meaning of "barrel of monkeys" and found out that this is the name of a toy game that was released in 1965. In this game, you pick up as many monkeys as you can, by hooking one monkey's arm through another monkey's arm, creating a chain (without using your hands directly).
 

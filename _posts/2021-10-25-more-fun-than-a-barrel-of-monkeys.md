@@ -12,7 +12,7 @@ Anyway, since this has been sold as a set of a barrel and some monkeys, I though
 
 > Becker[, the company's vice president at the time,] said it was during the meeting that he brought up the phrase, "more fun than a barrel of monkeys."
 
-Indeed, this expression was in use as of 1889.
+Indeed, this expression was in use as of 1895.
 
 > Barrel of monkeys, or bushel of monkeys, to have more fun than, to have an exceedingly jolly time.[^oed-monkey]
 

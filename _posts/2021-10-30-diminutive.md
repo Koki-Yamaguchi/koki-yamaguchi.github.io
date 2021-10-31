@@ -8,7 +8,7 @@ tags: ["suffix"]
 
 This derivation is called "diminutive" and denotes something little or expresses endearment. In most languages, there is a corresponding derivation. In Japanese, this is called 指小辞.
 
-Other common diminutives include the words suffixed with -let and -ling. The words "darling" and "duckling" are derived from "dear" and "duck", respectively. Words with -let include "applet" and "ringlet," which come from app and ring. Just for the record, applet means "a small application program" and ringlet means "a small ring".
+Other common diminutives include the words suffixed with -ling and -let. The words "darling" and "duckling" are derived from "dear" and "duck", respectively. Words with -let include "applet" and "ringlet," which come from app and ring. Just for the record, applet means "a small application program" and ringlet means "a small ring".
 
 The suffix -let in "bracelet" has a similar form, but rather than functioning as a diminutive, it functions with the parts of the body to describe an article of ornament. (e.g. necklet, wristlet, armlet, etc.)
 

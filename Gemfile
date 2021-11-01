@@ -33,3 +33,6 @@ gem "webrick", "~> 1.7"
 
 # for a security reason (https://snyk.io/vuln/SNYK-RUBY-NOKOGIRI-1726792)
 gem "nokogiri", ">= 1.12.5"
+
+# for seo
+gem 'jekyll-seo-tag'

@@ -16,6 +16,7 @@ twitter_username: Ymgch_K
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-seo-tag
 
 # pagination settings
 paginate: 10

@@ -15,6 +15,11 @@ layout: default
   {{ content }}
 </div>
 
+<a class="twitter-share-button"
+  href="https://twitter.com/intent/tweet?text={{ page.title }} - {{ site.title }}"
+  data-size="large"><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+Tweet</a>
+
 {% if site.related_posts.size >= 1 %}
 <div class="related">
   <h2>Related posts</h2>

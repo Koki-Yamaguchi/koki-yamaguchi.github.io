@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Diminutive
-tags: ["suffix"]
+tags: ["suffix", "linguistics"]
 ---
 
 "Festie" is a person who attends festivals regularly. This word comes from the word "festival", and it is easy to understand this meaning by analogy with other words like homie, roomie, vegie, etc. The same thing can happen with people's names as well. (e.g. Charles -> Charlie)

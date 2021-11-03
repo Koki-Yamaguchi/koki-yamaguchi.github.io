@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Frequentative
-tags: ["suffix", "etymology"]
+tags: ["suffix", "etymology", "linguistics"]
 ---
 
 A frequentative form of a word is a grammatical formation that indicates the frequent repetition of an action. Unfortunately, I could not find a corresponding Japanese word (反復相 is a bit similar, but this is one of the grammatical aspects, not the historical formation of the word).

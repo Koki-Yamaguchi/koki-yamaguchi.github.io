@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Initial-stress Derivation
-tags: ["pronunciation"]
+tags: ["pronunciation", "linguistics"]
 ---
 
 Many English words function as more than one part of speech and are pronounced differently dependnig on the usage. In particular, it is common for verbs to shift their stress to the first syllable when they are used as nouns or adjectives. This process is called "initial-stress derivation".

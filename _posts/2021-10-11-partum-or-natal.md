@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Partum or Natal?
-tags: ["prefix", "suffix", "etymology"]
+tags: ["prefix", "suffix", "etymology", "usage"]
 ---
 
 ## Partum or natal?

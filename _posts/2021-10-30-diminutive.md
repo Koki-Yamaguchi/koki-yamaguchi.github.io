@@ -4,7 +4,7 @@ title: Diminutive
 tags: ["suffix", "linguistics"]
 ---
 
-"Festie" is a person who attends festivals regularly. This word comes from the word "festival", and it is easy to understand this meaning by analogy with other words like homie, roomie, vegie, etc. The same thing can happen with people's names as well. (e.g. Charles -> Charlie)
+"Festie" is a person who attends festivals regularly. This word comes from the word "festival", and it is easy to understand this meaning by analogy with other words like homie, roomie, veggie, etc. The same thing can happen with people's names as well. (e.g. Charles -> Charlie)
 
 This derivation is called "diminutive" and denotes something little or expresses endearment. In most languages, there is a corresponding derivation. In Japanese, this is called 指小辞.
 

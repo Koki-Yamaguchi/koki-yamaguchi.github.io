@@ -21,7 +21,7 @@ The "col" part means "together", so this means "a talking together", or simply, 
 ## ventriloquist
 A ventriloquist is "someone who entertains people by speaking without moving their lips". The "ventri" part derives from the Latin word "venter", which means "belly". This is totally understandable, especially for Japanese people, since we have the corresponding Japanese word for ventriloquism, 腹話術, whose 腹 means a belly.
 
-## soliloquist
+## soliloquy
 The "sol" part means "alone", so soliloquy means "speaking alone" or "a speech in a play that a character speaks to oneself" (in Japanese, 独り言 and 独白, respectively).
 
 ---

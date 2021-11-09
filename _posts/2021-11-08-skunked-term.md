@@ -20,7 +20,7 @@ Anyway, let's take a quick look at a couple of interestring examples of the skun
 ### billion
 I was surprised that the first definition of the word "billion" in the Oxford English Dictionary is 
 
-> originally and still commonly in Great Britain: A million millions"
+> originally and still commonly in Great Britain: A million millions
 
 Well, this is totally understandable, albeit surprising to me at first, since billion is the combination of the prefix "bi-", which obviously means "two", and million. In the 16th century, this term was purposely created to denote "the second power of a million".
 

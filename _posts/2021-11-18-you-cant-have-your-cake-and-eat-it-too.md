@@ -4,7 +4,7 @@ title: You Can't Have Your Cake and Eat It Too
 tags: ["idiom"]
 ---
 
-In [one episode](https://www.waywordradio.org/love-bites/) of the podcast *A Way with Words*, a listener brought up a story about her family, who would always say to her, "You're trying to have your cake and eat it too! (You can't do that!)". As she listened, she thought in the back of her head, "What's the point of having a cake, if you can't eat it too?"
+In [one episode](https://www.waywordradio.org/love-bites/) of the podcast *A Way with Words*, a listener brought up a story about her family, who would always say to her, "You're trying to have your cake and eat it too! (You can't do both!)". As she listened, she thought in the back of her head, "What's the point of having a cake, if you can't eat it too?"
 
 "To have one's cake and eat it" or its variant is a common idiom meaning "to enjoy two desirable but mutually exclusive alternatives". This is often used in the form "you can't have your cake and eat it too". The misleading (and funny) part of this idiom is that the meaning of the word "have" is ambiguous and can mean both "to keep" and "to hold in your hand".
 

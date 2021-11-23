@@ -14,7 +14,7 @@ This is a quote from the book "The Devil Wears Prada", famous for its movie adap
 
 The usage of one part of speech as another is called "anthimeria"[^anthimeria-pron] (or "antimeria") in rhetoric. In linguistics, it is called "conversion", but this term seems to refer to a more general and broader concept (e.g., the verb "name" comes from that as a noun).
 
-In normal conversation, anthimeria can be often seen when referring to the act using a device or software. For example, "Google"[^oed-Google], "keyboard"[^oed-keyboard], "hashtag"[^oed-hashtag], and "text"[^oed-text] are all found in the OED as verbs. On the contrary, some verbs are used as nouns, such as "like", which is defined as "In the context of social media: an expression of approval or support made by clicking on a particular icon"[^oed-like].
+In normal conversation, anthimeria can be often seen when referring to the act of using a device or software. For example, "Google"[^oed-Google], "keyboard"[^oed-keyboard], "hashtag"[^oed-hashtag], and "text"[^oed-text] are all found in the OED as verbs. On the contrary, some verbs are used as nouns, such as "like", which is defined as "In the context of social media: an expression of approval or support made by clicking on a particular icon"[^oed-like].
 
 In advertising, many "verbs" are used that anyone can understand, even if they are not in the dictionary. For instance, the American streaming service Hulu used the phrase 'Come TV With Us'.
 

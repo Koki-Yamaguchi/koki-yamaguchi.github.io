@@ -20,6 +20,12 @@ layout: default
   data-size="large"><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 Tweet</a>
 
+<div class="github-links">
+  <a href="{{ site.github.repository_url }}/commits/{{ site.github.source.branch }}/{{ page.path }}">View history</a>
+  |
+  <a href="{% github_edit_link %}">Edit</a>
+</div>
+
 {% if site.related_posts.size >= 1 %}
 <div class="related">
   <h2>Related posts</h2>

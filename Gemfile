@@ -36,3 +36,6 @@ gem "nokogiri", ">= 1.12.5"
 
 # for seo
 gem 'jekyll-seo-tag'
+
+# github metadata
+gem "jekyll-github-metadata"

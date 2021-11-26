@@ -17,6 +17,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-github-metadata
 
 # pagination settings
 paginate: 10

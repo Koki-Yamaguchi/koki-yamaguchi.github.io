@@ -361,6 +361,13 @@ a.sidebar-nav-item:focus {
   color: inherit;
 }
 
+/* GitHub links (history/edit) */
+.github-links {
+  float: right;
+}
+.github-links a {
+  color: #F99C57;
+}
 
 /*
  * Pagination

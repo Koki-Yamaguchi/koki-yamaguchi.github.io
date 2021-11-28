@@ -11,7 +11,7 @@ layout: default
       </a>
     {% endfor %}
   </span>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
+  <span class="post-date">Published: {{ page.date | date: "%Y-%m-%d" }}</span>
   {{ content }}
 </div>
 
@@ -43,3 +43,19 @@ Tweet</a>
   </ul>
 </div>
 {% endif %}
+
+<script>
+  function getLastModified() {
+    fetch("https://api.github.com/repos/{{ site.github.owner_name }}/{{ site.github.repository_name }}/commits?path={{ page.path }}")
+      .then((response) => {
+        return response.json();
+      })
+      .then((commits) => {
+        var modified = commits[0]['commit']['committer']['date'].slice(0,10);
+        if (modified != "{{ page.date | date: "%Y-%m-%d" }}") {
+          document.getElementsByClassName('post-date')[0].textContent = 'Published: {{ page.date | date: "%Y-%m-%d" }} (Last Modified: ' + modified + ')';
+        }
+      });
+  };
+  window.onload = getLastModified;
+</script>

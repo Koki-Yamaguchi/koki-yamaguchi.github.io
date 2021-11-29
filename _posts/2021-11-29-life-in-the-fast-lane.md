@@ -4,7 +4,7 @@ title: Life in the Fast Lane
 tags: ["idiom"]
 ---
 
-I like to read English song lyrics, because they often contain interestring slang terms and beautiful poetic expressions.
+I like to read English song lyrics, because they often contain interesting slang terms and beautiful poetic expressions.
 However, I sometimes find it difficult to tell the difference between expressions written poetically by the artists themselves and those that are commonly used figuratively in conversation.
 
 Here's a quote from the lyrics of the song called *Ferrari* by one of my favorite artists, Bebe Rexha:

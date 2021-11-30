@@ -47,15 +47,14 @@ In this way, I learn how to explain a lot of things, which is really helpful to 
 
 ### DeepL
 I use it a lot in my English writing.
-In most cases, after I write a series of English sentences, I use DeepL to convert them into Japanese, correct them a bit by hand into Japanese that makes sense, then convert them back into English again using DeepL, and correct the English by hand.
-It takes some time to get used to it, but in my case, this has eliminated the need for native English speakers to correct me (I have had native English speakers correct my completed English several times, but there were almost no parts to be corrected), so I continue to do this.
-Once you go through the Japanese, you can learn a lot about the sentence you wanted to write in its entirety at the syntactic level.
-Recently, I feel like I don't need to use DeepL anymore (not many improvements are made), but I keep doing it because I learn something.
+After writing a series of English sentences, I usually translate them into Japanese by DeepL, correct the output a bit by hand, then translate them back into English again, and correct the English by hand.
+It takes some time, especially until you get used to this process, but in my case, thanks to this, I don't really need feedback from native English speakers (I asked native English speakers to correct my English with DeepL several times, but there were almost no parts to be corrected).
 
 ## My English skills
-- Eiken grade 1
-- (Aside from the reliability) [this vocabulary test](https://www.arealme.com/vocabulary-size-test/en/) I did a while ago shows that I know 21373 words.
-- I watch most English videos without having subtitles and when I can't understand anything, I usually watch it again with having English subtitles.
-- I can basically say whatever I mean in English.
-- I read about 2 or 3 books (mainly novels) a month in English.
-- I also do research at work and talk to myself in English.
+- EIKEN Grade 1
+- [this vocabulary test](https://www.arealme.com/vocabulary-size-test/en/) I took a while ago shows that I know(?) 21373 words (though I'm not sure this is reliable).
+- I watch most English videos without having subtitles, and when I can't understand something, I usually watch it again with English subtitles.
+- I can basically say whatever I mean in English (which doesn't mean I can speak good English).
+- I read 2 or 3 books (mainly novels) a month in English.
+- I usually use English resources and talk to myself in English at work.
+

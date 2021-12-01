@@ -17,7 +17,7 @@ It is likely to be boring for people with better English skills.
 I try to memorize all the English expressions I come across, even if they are uncommon slang or jargon.
 By "memorize", I mean I add the card with that expression into Anki.
 From my experience, I feel that I encounter most of these words again within a year.
-If you forget and search for the same word again, it is not only inefficient in the long run, but it may also lead to the consequence where your vocabulary will not really reinforced.
+If you forget and search for the same word again, it is not only inefficient in the long run, but it may also lead to the consequence where your vocabulary will not really be reinforced.
 If you are really sure that you won't encounter the word in the future, it's fine, but it's difficult to judge instantly by looking at the words.
 
 ### Not use Japanese at all
@@ -25,8 +25,8 @@ I feel that in order to improve your English skills, it is not really good to be
 One reason for this is that I feel it is really difficult to use both English and Japanese simultaneously because the sounds are radically different.
 It's important to eliminate Japanese sounds to improve your English pronunciation (especially the Japanese vowel sounds あいうえお).
 
-### Use one accent
-I believe that focusing on one accent that you can use and catch with confidence is one of the good ways to speak good English.
+### Focus on one accent
+I believe that focusing on one accent that you can speak and understand with confidence is one of the good ways to speak good English.
 I generally speak and listen to American English, because there are a wide variety of materials from the U.S. (there are of course regional differences within American English, but I don't pay much attention to that).
 I feel that by being consistent in terms of the accent, I can concentrate on practicing without having to think about other accents.
 I know that there are many people who speak with a mixture of accents, and I was one of them, but recently I feel that I can speak English in American accents without any hesitation.
@@ -46,7 +46,7 @@ When I can't, I just create a card with English word -> English definition.
 In this way, I learn how to explain a lot of things, which is really helpful to improve my speaking skill.
 
 ### DeepL
-I use it a lot in my English writing.
+I use DeepL a lot in my English writing.
 After writing a series of English sentences, I usually translate them into Japanese by DeepL, correct the output a bit by hand, then translate them back into English again, and correct the English by hand.
 It takes some time, especially until you get used to this process, but in my case, thanks to this, I don't really need feedback from native English speakers (I asked native English speakers to correct my English with DeepL several times, but there were almost no parts to be corrected).
 

@@ -23,3 +23,7 @@ plugins:
 # pagination settings
 paginate: 10
 
+collections:
+  words:
+    output: true
+

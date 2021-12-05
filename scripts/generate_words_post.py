@@ -24,6 +24,8 @@ def get_head_template(d):
 layout: post
 title: {0}
 ---
+This post was automatically generated except etymology part.
+
 '''.format(d)
 
 
@@ -34,7 +36,7 @@ def get_words_template(words):
 
 # {0}
 ## definitions
-[The Oxford English Dictionary](https://www.oed.com/search?q={0}) / [The Cambridge Dictionary](https://dictionary.cambridge.org/us/dictionary/english/{0}) / [Wiktionary](https://en.wiktionary.org/wiki/{0}#English) / [Weblio](https://ejje.weblio.jp/content_find?query={0}&searchType=exact)
+[OED](https://www.oed.com/search?q={0}) / [Cambridge](https://dictionary.cambridge.org/us/dictionary/english/{0}) / [Wiktionary](https://en.wiktionary.org/wiki/{0}#English) / [Weblio](https://ejje.weblio.jp/content_find?query={0}&searchType=exact)
 
 ## etymology
 FIXME

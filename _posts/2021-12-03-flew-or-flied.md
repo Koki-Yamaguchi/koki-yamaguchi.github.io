@@ -1,6 +1,6 @@
 ---
 layout: post
-title: flew or flied?
+title: Flew or Flied?
 tags: ["usage", "linguistics"]
 ---
 

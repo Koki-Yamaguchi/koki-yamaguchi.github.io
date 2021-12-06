@@ -5,7 +5,7 @@ import os.path
 import os
 import sys
 
-APPEND_WORDS = False
+APPEND_WORDS = False # when appending words, update a table of contents manually
 GEN_FILE = './gen.txt'
 GENS_DIR = './gens/'
 OUTPUT_DIR = './../_words/'
@@ -24,9 +24,17 @@ def get_head_template(d):
 layout: post
 title: {0}
 ---
-This post was automatically generated except etymology part.
 
+Words that I added to Anki on {0}.
+
+The contents were automatically generated except etymology part.
 '''.format(d)
+
+
+def get_table_of_contents(words):
+    if APPEND_WORDS:
+        return ''
+    return '# word list\n' + '\n'.join(['- [{0}](#{0})'.format(word) for word in words]) + '\n'
 
 
 def get_words_template(words):
@@ -36,12 +44,21 @@ def get_words_template(words):
 
 # {0}
 ## definitions
-[OED](https://www.oed.com/search?q={0}) / [Cambridge](https://dictionary.cambridge.org/us/dictionary/english/{0}) / [Wiktionary](https://en.wiktionary.org/wiki/{0}#English) / [Weblio](https://ejje.weblio.jp/content_find?query={0}&searchType=exact)
+[Cambridge](https://dictionary.cambridge.org/us/dictionary/english/{0})
+|
+[Wiktionary](https://en.wiktionary.org/wiki/{0}#English)
+|
+[Weblio](https://ejje.weblio.jp/content_find?query={0}&searchType=exact)
+|
+[OED](https://www.oed.com/search?q={0})
+|
+[Images](https://www.google.com/search?tbm=isch&q={0})
 
 ## etymology
 FIXME
 '''.format(word)
         result = result + '\n' + item
+
     return result
 
 
@@ -79,7 +96,10 @@ def main():
         print('Error: no words are found in file {}'.format(GEN_FILE), file=sys.stderr)
         sys.exit(0)
 
-    template = get_head_template(d) + get_words_template(words)
+    template = \
+        get_head_template(d) + \
+        get_table_of_contents(words) + \
+        get_words_template(words)
 
     with open(post_filename, 'a') as out:
         out.write(template)

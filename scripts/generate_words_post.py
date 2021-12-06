@@ -27,7 +27,7 @@ title: {0}
 
 Words that I added to Anki on {0}.
 
-The contents were automatically generated except etymology part.
+The contents were automatically generated except notes part.
 '''.format(d)
 
 
@@ -54,7 +54,7 @@ def get_words_template(words):
 |
 [Images](https://www.google.com/search?tbm=isch&q={0})
 
-## etymology
+## notes
 FIXME
 '''.format(word)
         result = result + '\n' + item

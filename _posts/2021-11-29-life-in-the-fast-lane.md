@@ -25,4 +25,4 @@ Instead of "life in the fast lane", several compounds are sometimes used, such a
 
 ---
 
-[^genius-ferrari-by-bebe-rexha]: [https://genius.com/Bebe-rexha-ferrari-lyrics](https://genius.com/Bebe-rexha-ferrari-lyrics)
+[^genius-ferrari-by-bebe-rexha]: <https://genius.com/Bebe-rexha-ferrari-lyrics>

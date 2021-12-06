@@ -24,4 +24,4 @@ There are many examples of an intrusive n before g:
 ---
 
 [^excrescence-pron]: U.S. /ɛkˈskrɛsəns/
-[https://en.wikipedia.org/wiki/Epenthesis#Excrescence](https://en.wikipedia.org/wiki/Epenthesis#Excrescence)
+<https://en.wikipedia.org/wiki/Epenthesis#Excrescence>

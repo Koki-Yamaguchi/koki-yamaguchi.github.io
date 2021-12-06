@@ -12,4 +12,4 @@ Other words figuratively related to flesh include incarnate and carnation. Incar
 
 ---
 
-[^wiki-carnival]: [https://en.wikipedia.org/wiki/Carnival#Etymology](https://en.wikipedia.org/wiki/Carnival#Etymology)
+[^wiki-carnival]: <https://en.wikipedia.org/wiki/Carnival#Etymology>

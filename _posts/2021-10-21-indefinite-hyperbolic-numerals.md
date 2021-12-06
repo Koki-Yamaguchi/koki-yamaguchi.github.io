@@ -25,6 +25,6 @@ In Japanese, we have the word 億万長者, which means millionaire or billionai
 千里 (千 means thousand, 里 is a Japanese or Chinese unit of length) can mean an indefinite distance, but is not really commonly used.
 
 References:
-- [https://www.kanken.or.jp/kanken/trivia/category05/171002.html](https://www.kanken.or.jp/kanken/trivia/category05/171002.html)
-- [https://en.wikipedia.org/wiki/Indefinite_and_fictitious_numbers](https://en.wikipedia.org/wiki/Indefinite_and_fictitious_numbers)
+- <https://www.kanken.or.jp/kanken/trivia/category05/171002.html>
+- <https://en.wikipedia.org/wiki/Indefinite_and_fictitious_numbers>
 

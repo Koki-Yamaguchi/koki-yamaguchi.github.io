@@ -22,4 +22,4 @@ In other contexts than linguistics, it can refer to the following two things:
 ---
 
 [^back-channel-pron]: U.S. /ˈbæk ˌtʃæn(ə)l/
-[^wiki-aizuchi]: [https://en.wikipedia.org/wiki/Aizuchi](https://en.wikipedia.org/wiki/Aizuchi)
+[^wiki-aizuchi]: <https://en.wikipedia.org/wiki/Aizuchi>

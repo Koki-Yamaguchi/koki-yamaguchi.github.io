@@ -13,7 +13,7 @@ For me, as a Japanese, "sing a song" and "dance a dance" are totally understanda
 ---
 
 [^pronunciation-cognate]: /ˈkɑɡˌneɪt/ 
-[^wikipedia-cognate-object]: [https://en.wikipedia.org/wiki/Cognate_object#Examples](https://en.wikipedia.org/wiki/Cognate_object#Examples)
-[^ja-wikipedia-cognate-object]: [https://ja.wikipedia.org/wiki/%E5%90%8C%E6%97%8F%E7%9B%AE%E7%9A%84%E8%AA%9E](https://ja.wikipedia.org/wiki/%E5%90%8C%E6%97%8F%E7%9B%AE%E7%9A%84%E8%AA%9E)
-[^ja-wikipedia-redundancy]: [https://ja.wikipedia.org/wiki/%E9%87%8D%E8%A8%80](https://ja.wikipedia.org/wiki/%E9%87%8D%E8%A8%80)
+[^wikipedia-cognate-object]: <https://en.wikipedia.org/wiki/Cognate_object#Examples>
+[^ja-wikipedia-cognate-object]: <https://ja.wikipedia.org/wiki/%E5%90%8C%E6%97%8F%E7%9B%AE%E7%9A%84%E8%AA%9E>
+[^ja-wikipedia-redundancy]: <https://ja.wikipedia.org/wiki/%E9%87%8D%E8%A8%80>
 

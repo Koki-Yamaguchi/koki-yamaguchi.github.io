@@ -28,5 +28,5 @@ As you probably know, "wrest" means "to pull forcefully", which probably happens
 
 ---
 
-[^wikipedia-excrescent]: [https://en.wikipedia.org/wiki/Epenthesis](https://en.wikipedia.org/wiki/Epenthesis)
+[^wikipedia-excrescent]: <https://en.wikipedia.org/wiki/Epenthesis>
 

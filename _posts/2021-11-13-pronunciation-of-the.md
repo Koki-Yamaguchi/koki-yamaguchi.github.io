@@ -11,7 +11,7 @@ tags: ["pronunciation", "linguistics"]
 ## Background
 Today, I read a paper on the pronunciation of "the".
 
-[https://link.springer.com/article/10.3758/BF03196110](https://link.springer.com/article/10.3758/BF03196110)
+<https://link.springer.com/article/10.3758/BF03196110>
 
 In this post, let me share the main results of Experiment 1. For simplicity, I will omit the exact details (exact data and discussion) and the results of Experiment 2. If you want to know more details and the further experiment, please see the paper yourself.
 

@@ -11,5 +11,5 @@ While the word revive is a much more general term meaning to bring back to life 
 
 ---
 
-[^latin-red]: [https://en.wiktionary.org/wiki/red-#Latin](https://en.wiktionary.org/wiki/red-#Latin)
+[^latin-red]: <https://en.wiktionary.org/wiki/red-#Latin>
 

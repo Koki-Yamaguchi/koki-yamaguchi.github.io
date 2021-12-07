@@ -34,7 +34,11 @@ The contents were automatically generated except notes part.
 def get_table_of_contents(words):
     if APPEND_WORDS:
         return ''
-    return '# word list\n' + '\n'.join(['- [{0}](#{0})'.format(word) for word in words]) + '\n'
+    result = '# word list\n'
+    for word in words:
+        id_word = word.lower().replace(' ', '-')
+        result = result + '- [{0}](#{1})\n'.format(word, id_word)
+    return result
 
 
 def get_words_template(words):

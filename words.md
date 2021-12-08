@@ -4,7 +4,8 @@ title: Words
 ---
 
 <div class="posts">
-  {% for word in site.words %}
+  {% assign sorted = site.words | sort: 'title' | reverse %}
+  {% for word in sorted %}
   <div class="post">
     <h3 class="post-title">
       <a href="{{ word.url | absolute_url }}">

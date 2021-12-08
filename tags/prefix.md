@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Tag: prefix"
+title: "#prefix"
 tag: prefix
 ---
 

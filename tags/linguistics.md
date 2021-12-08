@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Tag: linguistics"
+title: "#linguistics"
 tag: linguistics
 ---
 

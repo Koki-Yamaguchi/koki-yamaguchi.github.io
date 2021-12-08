@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Tag: suffix"
+title: "#suffix"
 tag: suffix
 ---
 

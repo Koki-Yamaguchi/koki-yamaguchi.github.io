@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Tag: poem"
+title: "#poem"
 tag: poem
 ---
 

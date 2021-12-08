@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Tag: usage"
+title: "#usage"
 tag: usage
 ---
 

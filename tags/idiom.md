@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Tag: idiom"
+title: "#idiom"
 tag: idiom
 ---
 

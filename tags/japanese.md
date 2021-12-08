@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Tag: japanese"
+title: "#japanese"
 tag: japanese
 ---
 

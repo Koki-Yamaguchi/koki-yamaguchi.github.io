@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Tag: pronunciation"
+title: "#pronunciation"
 tag: pronunciation
 ---
 

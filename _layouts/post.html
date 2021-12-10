@@ -53,7 +53,10 @@ Tweet</a>
         return response.json();
       })
       .then((commits) => {
-        var modified = commits[0]['commit']['committer']['date'].slice(0,10);
+        var modified_utc = commits[0]['commit']['committer']['date'];
+        var t = new Date(modified_utc);
+        const options = { year: 'numeric', month: '2-digit', day: '2-digit' }
+        var modified = t.toLocaleDateString('ja-JP', options).replace(/\//g, '-');
         if (modified != "{{ page.date | date: "%Y-%m-%d" }}") {
           document.getElementsByClassName('post-date')[0].textContent = 'Published: {{ page.date | date: "%Y-%m-%d" }} (Last Modified: ' + modified + ')';
         }

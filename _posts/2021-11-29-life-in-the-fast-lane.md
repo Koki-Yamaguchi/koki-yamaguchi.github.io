@@ -19,7 +19,7 @@ Here's a quote from the lyrics of the song called *Ferrari* by one of my favorit
 
 I read these lyrics quite a while ago, but it was not until today that I realized that the phrase "live in the fast lane" or its variant is actually a common expression (partly because "I'm a Ferrari" is obviously not a common expression).
 The term "fast lane" refers to "a lane of a highway for use by traffic that is moving faster than the rest".
-It also figuratively means "a lifestyle which is fast-paced, glamorous, hectic, or highly pressured, esp.".
+It also figuratively means "a lifestyle which is fast-paced, glamorous, hectic, or highly pressured, etc.".
 
 Instead of "life in the fast lane", several compounds are sometimes used, such as "fast-lane lifestyle" or "fast-lane living".
 

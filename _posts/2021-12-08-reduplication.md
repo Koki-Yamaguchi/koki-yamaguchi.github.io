@@ -4,7 +4,7 @@ title: Reduplication
 tags: ["linguistics"]
 ---
 
-Today, I encountered the expression "hem and haw", which means "to hasitate" or "to speak hesitantly".
+Today, I encountered the expression "hem and haw", which means "to hesitate" or "to speak hesitantly".
 Both "to hem" and "to haw" are used independently as an expression of hesitation.
 Other variants include "hem and hawk", "hem and ha", "hum and haw", etc.
 

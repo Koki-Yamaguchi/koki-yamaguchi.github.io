@@ -39,7 +39,7 @@ According to her opinion (and youglish), the unstressed vewel in *chocolate* and
 
 ## By the way
 One more thing.
-When the unstressed vowel in the words like *library* or *probably* gets removed, it leads to the two consecutive similar sounds, which sometimes gets assimilated.
+When the unstressed vowel in the words like *library* or *probably* gets removed, it leads to the two consecutive similar sounds, which sometimes get assimilated.
 So, *probably* is sometimes pronounced like /ˈprɑːbli/, and *library* like /ˈlaɪbri/.
 This process is called "haplology"[^haplology-pron][^wiki-haplology].
 

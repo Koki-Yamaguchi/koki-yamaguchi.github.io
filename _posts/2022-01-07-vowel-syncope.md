@@ -10,12 +10,11 @@ In phonology, this phenomenon is called *syncope*[^syncope-pron][^wiki-syncope].
 
 I knew that some pronunciations are not really fixed.
 Looking at [the weblio's entry of the word *chocolate*](https://ejje.weblio.jp/content/chocolate), for example, it says the pronunciation is /tʃάk(ə)lət/.
-But how exactly should we pronounce it, when it is expressed as *(ə)*?
-I learned some things from the videos above, so let me share a bit about them.
+But how exactly should we pronounce the sound that is expressed as *(ə)*?
+I learned some things from the following two videos, so let me share a bit about them.
 
 ## First video
-*English Words You’re Probably Mispronouncing ❌Difficult English Pronunciation | Rachel’s English*
-<https://www.youtube.com/watch?v=opKPVqxE_QY&ab_channel=Rachel%27sEnglish>
+[*English Words You’re Probably Mispronouncing ❌Difficult English Pronunciation | Rachel’s English*](https://www.youtube.com/watch?v=opKPVqxE_QY&ab_channel=Rachel%27sEnglish)
 
 She says (1:07):
 
@@ -26,16 +25,15 @@ Try reading the following words: *family*, *interesting*, *comfortable*, *vegeta
 
 According to her, this often happens to the unstressed vowel before the sound /r/, /l/, /m/, /n/, and /ŋ/.
 
-As a result, some words get assimilated, e.g., *restaurant* gets assimilated: /ˈrestərɑːnt/ ->  /ˈrestrɑːnt/ -> /ˈrestʃərɑːnt/
+As a result, some words get assimilated and sometimes sound differently, e.g., *restaurant* /ˈrestərɑːnt/ ->  /ˈrestrɑːnt/ -> /ˈrestʃrɑːnt/ (I don't exactly how to express this though).
 
 ## Second video
-*Master the American Accent: Vowel Syncope (aka, Words You're Saying Wrong!)*
-<https://www.youtube.com/watch?v=ifJfo35xEeA&ab_channel=SanDiegoVoiceandAccent>
-
-In this video, she delves into several words carefully, rather than list many examples.
+[*Master the American Accent: Vowel Syncope (aka, Words You're Saying Wrong!)*](https://www.youtube.com/watch?v=ifJfo35xEeA&ab_channel=SanDiegoVoiceandAccent)
 
 She says (1:52):
 > Sometimes you must follow the vowel syncope pronunciation. Everyone deletes that syllable, so you need to as well. And other times, it can go either way.
+
+In this video, she delves into several words carefully, rather than list many examples.
 
 According to her opinion (and youglish), the unstressed vewel in *chocolate* and adjective *separate* is always deleted, while in words such as *favorite* and *interested*, it is optional.
 

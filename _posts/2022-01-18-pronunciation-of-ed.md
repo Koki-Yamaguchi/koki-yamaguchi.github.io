@@ -8,7 +8,7 @@ Long ago, when I first learned the word *naked*, I thought its pronunciation was
 Since then, I have encountered several words that sound similarly: *crooked*, *wicked*, etc.
 
 The other day, I found [an interesting page](http://matters-phonetic.blogspot.com/2014/09/ed-and-d.html) on this topic.
-For each word in this list(some ommited), I looked it up on the Internet (mostly the OED and YouGlish) and also talked about it with two native speakers from America. Here's what I found out (or how I understood them).
+For each word in this list(some omitted), I looked it up on the Internet (mostly the OED and YouGlish) and also talked about it with two native speakers from America. Here's what I found out (or how I understood them).
 
 ## always long (/ɪd/)
 The words *jagged*, *naked*, *rugged*, *sacred*, and *wicked* are always pronounced as /ɪd/ (long).

@@ -32,7 +32,7 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 gem "webrick", "~> 1.7"
 
 # for a security reason (https://snyk.io/vuln/SNYK-RUBY-NOKOGIRI-1726792)
-gem "nokogiri", ">= 1.12.5"
+gem "nokogiri", ">= 1.13.2"
 
 # for seo
 gem 'jekyll-seo-tag'

@@ -1162,3 +1162,6 @@ bate abate
 
 - *can* (meaning "to know", now rare) + *-y*
 - cf. *cunnnig*
+
+- Latin *recurrō* (I return) &lt;- *currō* (I run)
+

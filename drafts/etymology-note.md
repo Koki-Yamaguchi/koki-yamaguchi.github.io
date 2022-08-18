@@ -1165,3 +1165,6 @@ bate abate
 
 - Latin *recurrō* (I return) &lt;- *currō* (I run)
 
+- "opening the bowels" &lt;- Latin *aperiō* (I open)
+- cf. *aperture*, *aperitif*, *pert* (aphetic form of obsolete *apert* (open)), *overt*
+

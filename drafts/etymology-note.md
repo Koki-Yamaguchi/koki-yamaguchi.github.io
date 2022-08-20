@@ -1168,3 +1168,5 @@ bate abate
 - "opening the bowels" &lt;- Latin *aperiō* (I open)
 - cf. *aperture*, *aperitif*, *pert* (aphetic form of obsolete *apert* (open)), *overt*
 
+- German *Ersatz* (replacement) &lt;- *ersetzen* (to replace) &lt;- *er-* (prefix signifying a notion of getting something by some means) + *setzen* (to set), the latter of which is cognate with English *set*
+

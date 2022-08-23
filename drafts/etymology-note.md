@@ -1170,3 +1170,9 @@ bate abate
 
 - German *Ersatz* (replacement) &lt;- *ersetzen* (to replace) &lt;- *er-* (prefix signifying a notion of getting something by some means) + *setzen* (to set), the latter of which is cognate with English *set*
 
+- Latin *perturbō* (I purturb) &lt;- *per-* + *turbō* (I disturb) &lt;- *turba* (turmoil)
+- cf. *disturb*, *turbulent*, *turbocharger*, *turbine*, *trouble*, *turbid*, *masturbate* (whose most widely accepted derivation is *manus* (hand) + *stuprō* (I defile, rape), remodelled after *turbō* (I disturb)) etc.
+
+- Latin *\*plumbicare* (to throw a leaded line) &lt;- *plumbum* (lead)
+- cf. *plummet*, *plumber*, *Pb* (atomic symbol for lead), *etc.
+

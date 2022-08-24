@@ -1,4 +1,4 @@
-10/05
+eyepit10/05
 [x] smoking gun
 [x] diaper
 [x] intra-
@@ -1175,4 +1175,10 @@ bate abate
 
 - Latin *\*plumbicare* (to throw a leaded line) &lt;- *plumbum* (lead)
 - cf. *plummet*, *plumber*, *Pb* (atomic symbol for lead), *etc.
+
+- Latin preposition *cis* (on this side of), opposed to *trans* or *ultra* (across)
+- after *transgender*
+- cf. *cisalpine* (on this side of the Alps), *cismontane* (on this side of the mountains, esp. of the Alps), *cisatlantic* (on this side of the Atlantic), etc.
+
+- *cater* (which is connected with *cat*) + *waul* (to utter the loud harsh cry characteristic of cats or of new-born babies), the latter of which is probably echoic
 

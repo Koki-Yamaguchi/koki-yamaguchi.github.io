@@ -1182,3 +1182,5 @@ bate abate
 
 - *cater* (which is connected with *cat*) + *waul* (to utter the loud harsh cry characteristic of cats or of new-born babies), the latter of which is probably echoic
 
+- French *brochure* (a stitched work) &lt;- *brocher* (to stitch) + *-ure* (forming nouns describing the result of an action (e.g. *enclosure*, *figure*, *picture*, *scripture*, etc.))
+

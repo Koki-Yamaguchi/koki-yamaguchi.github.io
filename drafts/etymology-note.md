@@ -1184,3 +1184,11 @@ bate abate
 
 - French *brochure* (a stitched work) &lt;- *brocher* (to stitch) + *-ure* (forming nouns describing the result of an action (e.g. *enclosure*, *figure*, *picture*, *scripture*, etc.))
 
+- Latin *phylum* (phylum) &lt;- Ancient Greek *φῦλον* (phûlon, "tribe")
+- cf. *phyle* (tribe)
+- Japanese *門*
+
+- Ancient Greek *ἀράχνη* (arákhnē, "spider")
+- cf. *arachnophobia*, *arachnodactyly* (the condition of having unusually long and slender fingers and hands) (with suffix *-dactyly* (forming nouns denoting normal or abnormal conditions of the digits (e.g., *polydactyly*)))
+- Japanese *クモ綱*
+

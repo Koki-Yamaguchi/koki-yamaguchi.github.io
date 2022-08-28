@@ -38,7 +38,7 @@ def get_table_of_contents(words):
     for word in words:
         id_word = word.lower().replace(' ', '-').replace('\'', '')
         result = result + '- [{0}](#{1})\n'.format(word, id_word)
-    return result
+    return result + '\n'
 
 
 def get_words_template(words):
@@ -62,8 +62,9 @@ def get_words_template(words):
 
 ## notes
 FIXME
+
 '''.format(word)
-        result = result + '\n' + item
+        result = result + item
 
     return result
 

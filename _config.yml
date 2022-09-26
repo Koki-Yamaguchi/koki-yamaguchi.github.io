@@ -26,4 +26,6 @@ paginate: 10
 collections:
   words:
     output: true
+  japanese:
+    output: true
 

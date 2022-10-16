@@ -36,7 +36,7 @@ def get_table_of_contents(words):
         return ''
     result = '# word list\n'
     for word in words:
-        id_word = word.lower().replace(' ', '-').replace('\'', '')
+        id_word = word.lower().replace(' ', '-').replace('.', '').replace('\'', '')
         result = result + '- [{0}](#{1})\n'.format(word, id_word)
     return result + '\n'
 

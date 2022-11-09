@@ -56,6 +56,8 @@ def get_words_template(words):
 |
 [OED](https://www.oed.com/search?q={0})
 |
+[AHD](https://www.ahdictionary.com/word/search.html?q={0})
+|
 [Images](https://www.google.com/search?tbm=isch&q={0})
 |
 [Youglish](https://youglish.com/pronounce/{0}/english/us)

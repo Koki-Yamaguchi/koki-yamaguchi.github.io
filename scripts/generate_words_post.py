@@ -81,6 +81,9 @@ def main():
     today = date.today()
     d = today.isoformat()
 
+    if len(sys.argv) > 1:
+        d = str(sys.argv[1])
+
     if not os.path.exists(GEN_FILE):
         print('Error: gen file {} not found'.format(GEN_FILE), file=sys.stderr)
         sys.exit(0)

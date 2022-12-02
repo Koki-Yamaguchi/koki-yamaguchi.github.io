@@ -48,10 +48,6 @@ def get_words_template(words):
 
 # {0}
 ## definitions
-[Cambridge](https://dictionary.cambridge.org/us/dictionary/english/{0})
-|
-[Wiktionary](https://en.wiktionary.org/wiki/{0}#English)
-|
 [Weblio](https://ejje.weblio.jp/content_find?query={0}&searchType=exact)
 |
 [OED](https://www.oed.com/search?q={0})
@@ -59,8 +55,6 @@ def get_words_template(words):
 [AHD](https://www.ahdictionary.com/word/search.html?q={0})
 |
 [Images](https://www.google.com/search?tbm=isch&q={0})
-|
-[Youglish](https://youglish.com/pronounce/{0}/english/us)
 
 ## notes
 FIXME
